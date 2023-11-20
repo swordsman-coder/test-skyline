@@ -1,0 +1,12 @@
+<import src="../../base"/>
+<view>主包页面</view>
+<template is="msgItem" data="{{...item}}"/>
+
+<button>
+  <navigator
+    url="/subPages/skyline/index"
+    hover-class="navigator-hover"
+  >
+    跳转到分包skyline
+  </navigator>
+</button>
